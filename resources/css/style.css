@@ -16,6 +16,13 @@ body{
 	opacity: 0.9;
 	text-align: center;
 }
+h2{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h4{
+	font-weight: bold;
+}
 /* HEADER SECTION*/
 header{
 	width: 100%;
@@ -26,6 +33,7 @@ header{
 	flex-wrap: wrap;
 	align-items: center;
 	border-bottom: 1px solid seashell;
+	background-color: black;
 }
 .logo img{
 	height: 50px;
@@ -40,7 +48,29 @@ nav span{
 	padding: 10px 15px;
 	display: inline-block;
 }
+div{
+	border: 1px solid white;
+}
 a{
 	color: seashell;
 	text-decoration: underline;
+}
+/* MAIN CONTENT SECTION*/
+.maincont{
+	padding-top: 70px;
+	width: 1200px;
+	margin: auto;
+}
+/* MISSION SECTION*/
+.mission{
+	background-image: url('../images/img-mission-background.jpg');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+}
+.missiontext{
+	background-color: black;
+	padding: 20px 0;
+	width: 1200px;
 }
