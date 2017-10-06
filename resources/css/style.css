@@ -30,6 +30,11 @@ h4{
 	font-weight: bold;
 	padding: 10px 0;
 }
+h5{
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 20px 0;
+}
 p{
 	padding: 20px 0;
 }
@@ -126,4 +131,8 @@ a{
 	justify-content: center;
 	opacity: 1;
 	margin: 0 20px;
+}
+/*CONTACT SECTION*/
+.contact{
+	height: 200px;
 }
