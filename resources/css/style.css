@@ -32,7 +32,7 @@ h4{
 }
 h5{
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 0.9em;
 	margin: 20px 0;
 }
 p{
@@ -62,9 +62,6 @@ nav{
 nav span{
 	padding: 10px 15px;
 	display: inline-block;
-}
-div{
-	border: 1px solid white;
 }
 a{
 	color: seashell;
@@ -135,4 +132,9 @@ a{
 /*CONTACT SECTION*/
 .contact{
 	height: 200px;
+}
+/*FOOTER SECTION*/
+footer{
+	text-align: left;
+	padding-left: 20px;
 }
